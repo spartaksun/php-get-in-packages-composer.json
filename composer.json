@@ -1,5 +1,5 @@
 {
-    "name": "wyrihaximus/get-in-packages-composer.jason",
+    "name": "spartaksun/get-in-packages-composer.jason",
     "description": "Functions around joshdifabio/composed and igorw/get-in to gather configuration from composer.json",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "8.0",
         "joshdifabio/composed": "^1.0",
         "igorw/get-in": "^1.0"
     },
@@ -26,10 +26,8 @@
         }
     },
     "config": {
-        "sort-packages": true,
-        "platform": {
-            "php": "7.2"
-        }
+        "sort-packages": true
+        
     },
     "scripts": {
         "ensure-installed": "composer install --ansi -n -q",
